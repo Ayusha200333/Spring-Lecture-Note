@@ -11,5 +11,4 @@ public class TestBean1  {
         System.out.println("TestBean1 constructor");
     }
 
-
 }
