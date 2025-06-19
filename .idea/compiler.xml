@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="01_Spring_Core" />
         <module name="02_Spring_Bean_Life_Cycle" />
+        <module name="03_Spring_With_DI" />
       </profile>
     </annotationProcessing>
   </component>
