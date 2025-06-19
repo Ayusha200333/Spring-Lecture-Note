@@ -26,16 +26,16 @@ public class AppInitializer {
 //        TestBean2 testBean2 = (TestBean2) context.getBean("ayusha", TestBean2.class);
 //        System.out.println(testBean2);
 
-        MyConnection myConnection = context.getBean(MyConnection.class);
-        System.out.println(myConnection);
-
-        //beanid -> bean method name
-        MyConnection myConnection2 = (MyConnection) context.getBean("ayusha");
-        System.out.println(myConnection2);
-
-        //beanid+class name
-        MyConnection myConnection3 = (MyConnection) context.getBean("ayusha",MyConnection.class);
-        System.out.println(myConnection3);
+//        MyConnection myConnection = context.getBean(MyConnection.class);
+//        System.out.println(myConnection);
+//
+//        //beanid -> bean method name
+//        MyConnection myConnection2 = (MyConnection) context.getBean("ayusha");
+//        System.out.println(myConnection2);
+//
+//        //beanid+class name
+//        MyConnection myConnection3 = (MyConnection) context.getBean("ayusha",MyConnection.class);
+//        System.out.println(myConnection3);
 
 //        SpringBean springBean1 = context.getBean(SpringBean.class);
 //        System.out.println(springBean1);
@@ -48,10 +48,24 @@ public class AppInitializer {
 //            }
 //        });
 
+            //bean scope
+            TestBean1 bean1 = context.getBean(TestBean1.class);
+            TestBean1 bean2 = context.getBean(TestBean1.class);
+            System.out.println(bean1);
+            System.out.println(bean2);
+
+            MyConnection myConnection1 = context.getBean(MyConnection.class);
+            MyConnection myConnection2 = context.getBean(MyConnection.class);
+            System.out.println(myConnection1);
+            System.out.println(myConnection2);
+
         context.registerShutdownHook();
 
 //        TestBean2 testBean2 = context.getBean(TestBean2.class);
 //        System.out.println(testBean2);
+
+
+
 
     }
 }
