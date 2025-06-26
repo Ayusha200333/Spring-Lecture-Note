@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 @Configuration
 @ComponentScan("org.example.bean")
-@Import({AppConfig.class,AppConfig2.class})
+@Import({AppConfig1.class,AppConfig2.class})
 public class AppConfig {
 
 }

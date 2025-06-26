@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="01_Spring_Core" />
         <module name="05_Configurations" />
+        <module name="Configuration_Task" />
         <module name="02_Spring_Bean_Life_Cycle" />
         <module name="03_Spring_With_DI" />
         <module name="04_FullMode_vs_LightMode" />
