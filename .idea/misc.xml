@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/Configuration_Task/pom.xml" />
         <option value="$PROJECT_DIR$/06_Runtime_Value_/pom.xml" />
         <option value="$PROJECT_DIR$/06_Runtime_Value_Injection/pom.xml" />
+        <option value="$PROJECT_DIR$/07_Spring_Env/pom.xml" />
       </list>
     </option>
   </component>
