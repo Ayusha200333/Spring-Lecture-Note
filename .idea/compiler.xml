@@ -6,13 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="03_Spring_With_DI" />
+        <module name="04_FullMode_vs_LightMode" />
         <module name="01_Spring_Core" />
         <module name="05_Configurations" />
         <module name="Configuration_Task" />
         <module name="02_Spring_Bean_Life_Cycle" />
-        <module name="03_Spring_With_DI" />
-        <module name="04_FullMode_vs_LightMode" />
+        <module name="06_Runtime_Value_Injection" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="06_Runtime_Value_" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
