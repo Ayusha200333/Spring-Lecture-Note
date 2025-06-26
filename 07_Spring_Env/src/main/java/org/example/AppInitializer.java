@@ -14,10 +14,10 @@ public class AppInitializer {
         context.refresh();
 
 //        //System Variables
-//        Map<String,String> env = System.getenv();
-//        for (Map.Entry<String,String> entry : env.entrySet()) {
+        Map<String,String> env = System.getenv();
+        for (Map.Entry<String,String> entry : env.entrySet()) {
 //            System.out.println(entry.getKey() + "=" + entry.getValue());
-//        }
+        }
 //
 //        System.out.println("=================================");
 //

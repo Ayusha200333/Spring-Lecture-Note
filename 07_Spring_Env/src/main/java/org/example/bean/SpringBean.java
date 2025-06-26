@@ -9,8 +9,12 @@ public class SpringBean implements InitializingBean {
     @Value("${os.name}")
     private String osName;
 
+    @Value("${db.name}")
+    private String dbName;
+
     @Override
     public void afterPropertiesSet() throws Exception {
         System.out.println(osName);
+        System.out.println(dbName);
     }
 }
