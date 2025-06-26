@@ -13,10 +13,11 @@
         <option value="$PROJECT_DIR$/06_Runtime_Value_/pom.xml" />
         <option value="$PROJECT_DIR$/06_Runtime_Value_Injection/pom.xml" />
         <option value="$PROJECT_DIR$/07_Spring_Env/pom.xml" />
+        <option value="$PROJECT_DIR$/08_Spring_Web_MVC/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_23" project-jdk-name="corretto-21" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
