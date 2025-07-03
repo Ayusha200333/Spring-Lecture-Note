@@ -11,6 +11,11 @@ public class HelloController {
         return "GET";
     }
 
+    @GetMapping(path = "get2")
+    public String getMapping2() {
+        return "GET-2";
+    }
+
     @PostMapping
     public String postMapping() {
         return "POST";
@@ -24,5 +29,10 @@ public class HelloController {
     @PutMapping
     public String putMapping() {
         return "PUT";
+    }
+
+    @PatchMapping
+    public String patchMapping() {
+        return "PATCH";
     }
 }
