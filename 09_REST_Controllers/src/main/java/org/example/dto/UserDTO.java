@@ -4,11 +4,14 @@ public class UserDTO {
     private String uId;
     private String uName;
     private String uAddress;
+    private CityDTO uCity;
 
-    public UserDTO(String uId, String uName, String uAddress) {
+
+    public UserDTO(String uId, String uName, String uAddress,CityDTO uCity) {
         this.uId = uId;
         this.uName = uName;
         this.uAddress = uAddress;
+        this.uCity = uCity;
     }
     public String getuId() {
         return uId;
@@ -28,6 +31,12 @@ public class UserDTO {
     public void setuAddress(String uAddress) {
         this.uAddress = uAddress;
     }
+    public CityDTO getuCity() {
+        return uCity;
+    }
+    public void setuCity(CityDTO uCity) {
+        this.uCity = uCity;
+    }
 
     @Override
     public String toString() {
@@ -35,6 +44,7 @@ public class UserDTO {
                 "uId='" + uId + '\'' +
                 ", uName='" + uName + '\'' +
                 ", uAddress='" + uAddress + '\'' +
+                ", uCity=" + uCity +
           '}';
     }
     public UserDTO(){
