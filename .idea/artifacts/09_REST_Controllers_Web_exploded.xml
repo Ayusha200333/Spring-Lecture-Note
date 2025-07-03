@@ -19,6 +19,9 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:7.0.0-M6" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:7.0.0-M6" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:7.0.0-M6" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.19.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.19.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.19.1" />
         </element>
       </element>
     </root>
