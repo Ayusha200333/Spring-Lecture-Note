@@ -1,6 +1,5 @@
 const API_BASE_URL = "http://localhost:8080/api/v1/job";
 
-// Bootstrap modal instance
 const editModal = new bootstrap.Modal(document.getElementById('editJobModal'));
 
 let currentPage = 0;
@@ -95,7 +94,7 @@ $(document).ready(() => {
     });
 });
 
-// === 🔁 PAGINATION ===
+
 function loadJobs(page = 0) {
     $.ajax({
         url: `${API_BASE_URL}/jobs?page=${page}&size=${pageSize}`,
@@ -133,7 +132,7 @@ function renderPagination(totalPages, currentPage) {
     });
 }
 
-// === 🧩 HELPERS ===
+
 function renderJobs(jobs, page) {
     const tbody = $('#jobsTableBody');
     tbody.empty();
